@@ -5,4 +5,8 @@ Any actions and or activities related to the tools I have created is solely your
 
 
 # Linux-Mac_anonymizing
-Every new network connection that is made will automatically generate a spoofed MAC address. 
+Every new wifi network connection that is made will automatically generate a spoofed MAC address. 
+
+File Path: /etc/NetworkManager/conf.d/00-random.conf
+
+Restart network adapter after adding new config: systemctl reload NetworkManager
